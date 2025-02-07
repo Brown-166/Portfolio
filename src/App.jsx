@@ -2,7 +2,9 @@ import { useState } from 'react'
 
 import { useTranslation } from 'react-i18next'
 import './i18n'
-import Header from './components/Header';
+
+import { Outlet } from "react-router-dom";
+import Navbar from './components/Navbar';
 
 function App() {
   const {t, i18n} = useTranslation();
@@ -11,9 +13,18 @@ function App() {
   }
   return (
     <>
-      <button onClick={() => changeLanguage('pt')}>Português</button>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <Header texto1={t('texto1')}/>
+      <Navbar 
+        ptChange={() => changeLanguage('pt')}
+        enChange={() => changeLanguage('en')}
+        mainProjects={t('navbar.mainProjects')} 
+        latestProjects={t('navbar.latestProjects')}
+        technologies={t('navbar.technologies')}
+        showAllTech={t('navbar.showAllTech')}
+        searchBar={t('navbar.searchBar')}
+        searchButton={t('navbar.searchButton')}
+        contact={t('navbar.contact')}
+       />
+       <Outlet />
     </>
   )
 }

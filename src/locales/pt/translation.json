@@ -1,3 +1,9 @@
 {
-    "texto1" : "Portugues"
+    "navbar.mainProjects" : "Principais Projetos",
+    "navbar.latestProjects" : "Projetos Recentes",
+    "navbar.technologies" : "Tecnologias",
+    "navbar.showAllTech" : "Mostar Todas",
+    "navbar.searchBar" : "Pesquisar Projetos e Tecnologias",
+    "navbar.searchButton" : "Pesquisar",
+    "navbar.contact" : "Contato"
 }

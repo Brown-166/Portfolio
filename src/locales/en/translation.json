@@ -1,3 +1,9 @@
 {
-    "texto1" : "English"
+    "navbar.mainProjects" : "Main Projects",
+    "navbar.latestProjects" : "Latest Projects",
+    "navbar.technologies" : "Technologies",
+    "navbar.showAllTech" : "Show All",
+    "navbar.searchBar" : "Search Projects and Technologies",
+    "navbar.searchButton" : "Search",
+    "navbar.contact" : "Contact"
 }
