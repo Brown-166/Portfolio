@@ -5,5 +5,16 @@
     "navbar.showAllTech" : "Mostar Todas",
     "navbar.searchBar" : "Pesquisar Projetos e Tecnologias",
     "navbar.searchButton" : "Pesquisar",
-    "navbar.contact" : "Contato"
+    "navbar.contact" : "Contato",
+
+    "projects" : {
+        "Primary_Target" : {
+            "title" : "Jogo Primary Target",
+            "desc" : "Este é um jogo criado por mim e meu amigo para o nosso TCC escolar em nosso último ano do ensino médio. Este foi o primeiro projeto em que eu liderei o desenvolvimento, no projeto, nós utilizamos a metodologia SCRUM para o desenvolvimento, além disso também trabalhei nas artes 2D, animações e script do jogo. Neste jogo de ação beat'em up você controla um assassino de aluguel que foi contratado para eliminar Hades, o chefe da máfia da de São Paulo."
+        },
+        "Robomath" :{
+            "title" : "Jogo Robomath",
+            "desc" : "O primeiro jogo em que eu participei do desenvolvimento, feito por mim e mais 3 colegas como parte da nossa iniciação científica. O objetivo da iniciação era criar um jogo com algum tema educacional. No jogo você controla um robo que tem um número em seu peito, seu objetivo é fazer esse número chegar ao número sorteado pelo jogo através de operações matemáticas."
+        }
+    }
 }

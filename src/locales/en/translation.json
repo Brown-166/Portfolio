@@ -5,5 +5,16 @@
     "navbar.showAllTech" : "Show All",
     "navbar.searchBar" : "Search Projects and Technologies",
     "navbar.searchButton" : "Search",
-    "navbar.contact" : "Contact"
+    "navbar.contact" : "Contact",
+
+    "projects" : {
+        "Primary_Target" : {
+            "title" : "Game Primary Target",
+            "desc" : "This is a game created by me and my friend for our final paper in our final year of high school. This was the first project in which I led the development. In the project, we used the SCRUM methodology for development. I also worked on the 2D art, animations and script for the game. In this beat'em up action game, you control a hitman who has been hired to eliminate Hades, the head of the São Paulo mafia."
+        },
+        "Robomath" :{
+            "title" : "Game Robomath",
+            "desc" : "The first game I participated in the development of was made by me and 3 other colleagues as part of our scientific initiation project. The goal of the initiation project was to create a game with some educational theme. In the game, you control a robot that has a number on its chest. Your goal is to make this number reach the number drawn by the game through mathematical operations."
+        }
+    }
 }

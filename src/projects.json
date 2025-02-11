@@ -1,0 +1,48 @@
+[
+    {
+        "name" : "Primary_Target",
+        "image" : {
+            "main" : "/primaryTarget/main.png",
+            "0" : "/primaryTarget/boss red.png",
+            "1" : "/primaryTarget/boss blue.png",
+            "2" : "/primaryTarget/motorcycle.png",
+            "3" : "/primaryTarget/credits.png"
+        },
+        "tech" : {
+            "main" : "Godot | SCRUM | Android",
+            "0" : "Godot",
+            "1" : "SCRUM",
+            "2" : "Android"
+        },
+        "link" : {
+            "projectPage" : "/projects/Primary_Target",
+            "project" : "https://pedro-b.itch.io/primary-target", 
+            "gitHub" : "https://github.com/Brown-166/Primary-Target"
+        },
+        "date" : {
+            "begin" : "01/08/2024", 
+            "end" : "29/01/2025"
+        }
+    },
+    {
+        "name" : "Robomath",
+        "image" : {
+            "main" : "/robomath/main.png"
+        },
+        "tech" : {
+            "main" : "Godot | Android | HTML",
+            "0" : "Godot",
+            "1" : "Android",
+            "2" : "HTML"
+        },
+        "link" : {
+            "projectPage" : "/projects/Robomath",
+            "project" : "https://cpii-ic-2022.itch.io/robomath", 
+            "gitHub" : "Unavailable"
+        },
+        "date" : {
+            "begin" : "03/09/2022", 
+            "end" : "15/12/2022"
+        }
+    }
+]
