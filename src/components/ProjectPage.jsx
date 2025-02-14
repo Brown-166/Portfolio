@@ -22,7 +22,7 @@ function ProjectPage({title, images, desc, techs, begin, dateBegin, end, dateEnd
                     {images.map((image, index) => (
                         <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
                             <img 
-                                src={image} 
+                                src={`${import.meta.env.BASE_URL}${image}`}
                                 className="d-block w-100 img-fluid" 
                                 alt={`Slide ${index + 1}`} 
                                 style={{ maxHeight: '500px', objectFit: 'cover' }}
