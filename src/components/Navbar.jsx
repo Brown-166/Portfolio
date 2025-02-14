@@ -16,21 +16,6 @@ function Navbar ({ptChange, enChange, mainProjects, latestProjects, technologies
                         <li className="nav-item">
                         <Link className="nav-link " to="/">Home</Link>
                         </li>
-                        <li className="nav-item">
-                        <Link className="nav-link" to="/MainProjects">{mainProjects}</Link>
-                        </li>
-                        <li className="nav-item">
-                        <Link className="nav-link" to="/LatestProjects">{latestProjects}</Link>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">{technologies}</a>
-                            <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/Technologies/C#">C#</Link></li>
-                                <li><Link className="dropdown-item" to="/Technologies/Godot">Godot</Link></li>
-                                <li><Link className="dropdown-item" to="/Technologies/React">React</Link></li>
-                                <li><Link className="dropdown-item" to="/Technologies/all">{showAllTech}</Link></li>
-                            </ul>
-                        </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">{contact}</a>
                             <ul className="dropdown-menu bg-light rounded">
@@ -69,10 +54,6 @@ function Navbar ({ptChange, enChange, mainProjects, latestProjects, technologies
                             </ul>
                         </li>
                     </ul>
-                    <form className="d-flex">
-                        <input className="form-control me-2" style={{width : "260px"}} type="text" placeholder={searchBar}/>
-                        <button className="btn btn-primary" type="button">{searchButton}</button>
-                    </form>
                 </div>
             </div>
             </nav>
