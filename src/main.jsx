@@ -9,10 +9,24 @@ import projectsData from "./projects.json"
 import { useEffect } from "react";
 
 
+import { useTranslation } from 'react-i18next'
+import './i18n'
+
+
+
+function contactCopy(copyText) {
+  navigator.clipboard.writeText(copyText);
+}
+
+
+
+
+
+
 
 function ProjectDetails() {
+  const {t, i18n} = useTranslation();
   const { projectName } = useParams();
-  console.log("Nome do projeto na URL:", projectName); // Depuração
   const project = projectsData.find((p) => p.name === projectName);
 
   if (!project) {
@@ -21,12 +35,15 @@ function ProjectDetails() {
 
   return (
     <ProjectPage
-      title={project.name}
-      image={project.image.main}
-      desc={project.tech.main}
-      techs={project.tech}
+      title={t("projects."+project.name+".title")}
+      images={project.images}
+      desc={t("projects."+project.name+".desc")}
+      techs={project.tech.all}
+      begin={t("projects.begin")}
       dateBegin={project.date.begin}
+      end={t("projects.end")}
       dateEnd={project.date.end}
+      linkProTrans={t("projects.projectLink")}
       linkProject={project.link.project}
       linkGitHub={project.link.gitHub}
     />

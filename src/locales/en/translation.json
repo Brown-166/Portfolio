@@ -6,8 +6,12 @@
     "navbar.searchBar" : "Search Projects and Technologies",
     "navbar.searchButton" : "Search",
     "navbar.contact" : "Contact",
+    "contact.cell" : "Cell Phone",
 
     "projects" : {
+        "begin" : "Begin: ",
+        "end" : "End: ",
+        "projectLink": "Project: ",
         "Primary_Target" : {
             "title" : "Game Primary Target",
             "desc" : "This is a game created by me and my friend for our final paper in our final year of high school. This was the first project in which I led the development. In the project, we used the SCRUM methodology for development. I also worked on the 2D art, animations and script for the game. In this beat'em up action game, you control a hitman who has been hired to eliminate Hades, the head of the São Paulo mafia."

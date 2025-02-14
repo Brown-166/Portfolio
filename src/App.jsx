@@ -23,6 +23,7 @@ function App() {
         searchBar={t('navbar.searchBar')}
         searchButton={t('navbar.searchButton')}
         contact={t('navbar.contact')}
+        cell={t('contact.cell')}
        />
        <Outlet />
     </>

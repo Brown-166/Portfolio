@@ -6,8 +6,13 @@
     "navbar.searchBar" : "Pesquisar Projetos e Tecnologias",
     "navbar.searchButton" : "Pesquisar",
     "navbar.contact" : "Contato",
+    "contact.cell" : "Celular",
+
 
     "projects" : {
+        "begin" : "Início: ",
+        "end" : "Fim: ",
+        "projectLink": "Projeto: ",
         "Primary_Target" : {
             "title" : "Jogo Primary Target",
             "desc" : "Este é um jogo criado por mim e meu amigo para o nosso TCC escolar em nosso último ano do ensino médio. Este foi o primeiro projeto em que eu liderei o desenvolvimento, no projeto, nós utilizamos a metodologia SCRUM para o desenvolvimento, além disso também trabalhei nas artes 2D, animações e script do jogo. Neste jogo de ação beat'em up você controla um assassino de aluguel que foi contratado para eliminar Hades, o chefe da máfia da de São Paulo."

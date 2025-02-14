@@ -15,10 +15,10 @@ function Home (){
     const {t, i18n} = useTranslation();
     return(
         <div className="container p-4">
-            <div className="row row-cols-3 g-2">
+            <div className="row row-cols-3 g-2 card-group">
                 {projects.map((project, index) => (
                     <ProjectItem 
-                    image={project.image.main} 
+                    image={project.images[0]} 
                     title={t("projects."+project.name+".title")} 
                     tech={project.tech.main}
                     link={project.link.projectPage} />

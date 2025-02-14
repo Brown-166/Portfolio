@@ -1,18 +1,23 @@
 [
     {
         "name" : "Primary_Target",
-        "image" : {
-            "main" : "/primaryTarget/main.png",
-            "0" : "/primaryTarget/boss red.png",
-            "1" : "/primaryTarget/boss blue.png",
-            "2" : "/primaryTarget/motorcycle.png",
-            "3" : "/primaryTarget/credits.png"
-        },
-        "tech" : {
+        "images" : [
+            "/primaryTarget/main.png",
+            "/primaryTarget/boss red.png",
+            "/primaryTarget/boss blue.png",
+            "/primaryTarget/motorcycle.png",
+            "/primaryTarget/credits.png"
+        ],
+        "tech" :{
             "main" : "Godot | SCRUM | Android",
-            "0" : "Godot",
-            "1" : "SCRUM",
-            "2" : "Android"
+            "all" : [
+                "Godot",
+                "SCRUM",
+                "Android",
+                "Game",
+                "Back End",
+                "Front End"
+            ]
         },
         "link" : {
             "projectPage" : "/projects/Primary_Target",
@@ -26,14 +31,24 @@
     },
     {
         "name" : "Robomath",
-        "image" : {
-            "main" : "/robomath/main.png"
-        },
+        "images" : [
+            "/robomath/main.png",
+            "/robomath/1.png",
+            "/robomath/2.png",
+            "/robomath/3.png",
+            "/robomath/4.png",
+            "/robomath/credits.png"
+        ],
         "tech" : {
             "main" : "Godot | Android | HTML",
-            "0" : "Godot",
-            "1" : "Android",
-            "2" : "HTML"
+            "all" : [
+                "Godot",
+                "Android",
+                "HTML",
+                "Game",
+                "Back End",
+                "Front End"
+            ]
         },
         "link" : {
             "projectPage" : "/projects/Robomath",
