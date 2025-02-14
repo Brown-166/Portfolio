@@ -54,7 +54,7 @@ function ProjectDetails() {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <Routes>
         <Route path="/" element={<App />}>
             <Route index element={<Home />} />
